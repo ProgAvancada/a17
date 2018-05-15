@@ -11,5 +11,4 @@ import java.lang.annotation.Target;
 public @interface Column {
 	int order() default -1;
 	String format() default "";
-	
 }
