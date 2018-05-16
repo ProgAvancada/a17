@@ -29,8 +29,8 @@ Observe nesse método o uso do método getClass() e de classes como
 
 ## Annotations
 
-Foi criada as anotations (@Column)[https://github.com/ProgAvancada/a17/blob/master/src/br/pucpr/annotations/Column.java]
-e (@Header)[https://github.com/ProgAvancada/a17/blob/master/src/br/pucpr/annotations/Header.java] que permitem marcar 
+Foi criada as anotations [@Column](https://github.com/ProgAvancada/a17/blob/master/src/br/pucpr/annotations/Column.java)
+e [@Header](https://github.com/ProgAvancada/a17/blob/master/src/br/pucpr/annotations/Header.java) que permitem marcar 
 quais campos da classe irão aparecer na tabela e quais terão cabeçalho impresso. Além disso, as anotações permitem 
 definir configurações. Observe novamente o 
 [método inspect](https://github.com/ProgAvancada/a17/blob/master/src/br/pucpr/annotations/Table.java#L12-L34)
@@ -40,7 +40,7 @@ As informações são usadas para gerar objetos da classe
 [TableColumn](https://github.com/ProgAvancada/a17/blob/master/src/br/pucpr/annotations/TableColumn.java)
 que são posteriormente usados para desenhar a tabela.
 
-##Resolução sem annotations
+## Resolução sem annotations
 
 Verifique também a resolução deste problema sem o uso do recurso de annotations, através do padrão 
 [DataMapper](https://github.com/ProgAvancada/a17-02) (DataSource).
